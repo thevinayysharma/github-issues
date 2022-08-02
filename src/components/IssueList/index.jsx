@@ -18,7 +18,7 @@ function IssueList() {;
     const firstPageIndex = (currentPage - 1) * PageSize ;
     const lastPageIndex = firstPageIndex + PageSize;
     return issues.slice(firstPageIndex, lastPageIndex);
-  }, [currentPage]);
+  }, [issues, currentPage]);
 
 
   useEffect(() => {
