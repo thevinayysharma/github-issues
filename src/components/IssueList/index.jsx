@@ -6,7 +6,7 @@ import './style.css';
 import Pagination from '../Pagination/pagination';
 
 let PageSize = 10;
-let bool = true;
+
 function IssueList() {;
   const [currentPage, setCurrentPage] = useState(1);
   const { loading, data, error } = useFetch();
