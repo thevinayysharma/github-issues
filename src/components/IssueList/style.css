@@ -1,0 +1,107 @@
+.header {
+  text-align: center;
+  border: 1px solid #dcdee1;
+  border-radius: 3px;
+  margin: 10px auto;
+  max-width: 90%;
+}
+.header__tittle {
+  font-weight: 500;
+}
+
+.header__para {
+  font-size: 14px;
+}
+
+.header__para:last-child {
+  margin-bottom: 19px;
+}
+
+a {
+  text-decoration: none;
+  color: #0969da;
+}
+
+.header__para > a:hover {
+  text-decoration: underline;
+  color: #0969da;
+}
+
+.header__tittle {
+  margin-top: 24px;
+  text-align: center;
+  margin: 10px auto;
+  padding: 1rem;
+  font: inherit;
+  font-weight: 500;
+}
+.IssueList {
+  border: 1px solid #dcdee1;
+  max-width: 90%;
+  margin: 10px auto;
+  border-radius: 3px;
+}
+
+.loader {
+  font-size: medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #6e7175;
+}
+
+.IssueList__header {
+  cursor: pointer;
+  background-color: #f6f8fa;
+  border-bottom: 1px solid #dcdee1;
+  font-size: 1rem;
+  padding: 10px;
+  color: #6e7175;
+}
+
+.IssueList__header__state--open {
+  color: #24292f;
+  font-weight: 600;
+}
+
+.IssueList__header__state--closed {
+  margin-left: 10px;
+}
+
+.IssueList__header__state--closed:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
+
+.pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .IssueList {
+    max-width: 95%;
+    margin: 10px;
+  }
+  .header {
+    max-width: 95%;
+    margin: 10px;
+  }
+}
+@media (max-width: 468px) {
+  .IssueList {
+    max-width: 100%;
+    margin: 10px;
+  }
+  .header {
+    max-width: 100%;
+    margin: 10px;
+  }
+}
+
+/* todo's
+color on hover
+change classNames */

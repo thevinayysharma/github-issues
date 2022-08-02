@@ -1,0 +1,107 @@
+.IssueHeader {
+  background-color: #f6f8fa;
+  border-bottom: 2px solid #dcdee1;
+  font-size: 1rem;
+  padding: 10px;
+  color: #6e7175;
+}
+.IssueMainHeading {
+  display: flex;
+  justify-content: space-between;
+}
+.CommentContainer {
+  display: flex;
+  cursor: pointer;
+  align-items: baseline;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.CommentContainer:hover {
+  color: #0969da;
+  font-weight: 500;
+}
+.CommentContainer span {
+  margin-left: 4px;
+}
+
+.IssueContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.IssueBox {
+  border-bottom: 2px solid #dcdee1;
+  font-size: 1.1rem;
+  padding: 10px;
+  font-weight: 600;
+}
+.IssueBox:hover {
+  background-color: #f6f8fa;
+}
+.IssueContainer > img {
+  margin: 0 5px;
+}
+.IssueBox a {
+  text-decoration: none;
+}
+.IssueBox a {
+  color: black;
+}
+.IssueBox a:hover {
+  color: #0969da;
+}
+.IssueContent {
+  font-size: 12px;
+  font-weight: 400;
+  color: #757a81;
+  margin-top: 4px;
+}
+.IssueContent > span {
+  margin: 0 3px;
+}
+.Label {
+  margin-left: 2px;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0 7px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.ToolTip {
+  font-size: 12px !important;
+  padding: 4px !important;
+}
+.OpenBug {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  border: 2px solid #1a7f37;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.OpenBug::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #1a7f37;
+  border-radius: 100%;
+}
+
+@media (max-width: 768px) {
+  .IssueBox {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 468px) {
+  .IssueBox {
+    font-size: 0.95rem;
+  }
+}
