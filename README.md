@@ -3,7 +3,7 @@
 [Live project]()
 
 - Github Issues page built with Pagination support and Github OSS API.
-- Anaking Assesment. //Stage-1
+- Anakin Assesment. //Stage-1
 
 ### Packages Uses
 
