@@ -1,6 +1,8 @@
 ## Github Issues
 
 [Live project](https://github-issues.stackblitz.io)
+![image](https://user-images.githubusercontent.com/68610608/183261986-fb3078f7-3941-48ec-b3ca-fd02ef2e40b5.png)
+
 
 - Github Issues page built with Pagination support and Github OSS API.
 - Anakin Assesment. //Stage-1
